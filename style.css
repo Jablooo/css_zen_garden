@@ -58,6 +58,9 @@ abbr {
 .page-wrapper {
 	padding-left: 10%;
 	width: 100%;
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .intro {
@@ -96,6 +99,7 @@ header {
 	opacity: 0.7;
 	width: 35%;
 	float: right;
+	padding: 15px 30px;
 	margin-right: 20px;
 	border-radius: 5px;
 }
@@ -103,22 +107,23 @@ header {
 	font: italic 1.1em/2.2;
 	text-align: center;
 }
+.supporting {
+	margin-top: 40px;
+}
+
 .preamble {
 	clear: left;
 	background: white;
+	padding: 15px 30px;
 	opacity: .65;
 	margin-left: 20px;
-	padding-left: 10px;
 	width: 55%;
 	border-radius: 5px;
 }
-.supporting {
-	margin: 20px 20px 40px;
-		/*border: 3px solid #ccc*/
-}
+
 .explanation {
 	background: white;
-	padding: 0 10px;
+	padding: 15px 30px;
 	border-radius: 5px;
 	margin-right: 10px;
 	margin-bottom: 20px;
@@ -129,7 +134,7 @@ header {
 }
 .participation {
 	background: white;
-	padding: 0 10px;
+	padding: 15px 30px;
 	border-radius: 5px;
 	margin-right: 10px;
 	margin-bottom: 20px;
@@ -140,7 +145,7 @@ header {
 }
 .benefits {
 	background: white;
-	padding: 0 10px;
+	padding: 15px 30px;
 	border-radius: 5px;
 	margin-right: 10px;
 	margin-bottom: 20px;
@@ -151,7 +156,7 @@ header {
 }
 .requirements {
 	background: white;
-	padding: 0 10px;
+	padding: 15px 30px;
 	border-radius: 5px;
 	margin-right: 10px;
 	margin-bottom: 20px;
@@ -165,12 +170,60 @@ header {
 
 footer {
 	text-align: center;
+	margin-bottom: 15px;
 }
 footer a:link, footer a:visited {
 	margin-right: 20px;
+	background-color: white;
+	opacity: 0.65;
+	padding: 5px 10px;
+	border-radius: 3px;
+
+}
+.wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
 }
 
+.design-selection {
+	display: flex;
+	justify-content: center;
+	padding: 15px 20px;
+	flex-wrap: wrap;
+	background: white;
+	opacity: .65;
+	border-radius: 5px;
+	width: 100%;
+}
+.design-selection h3 {
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+.design-selection ul {
+	display: flex;
+	text-align: center;
+	padding: 5px 5px;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 100%;
+}
 
+.design-archives {
+	background: white;
+	opacity: .65;
+	border-radius: 5px;
+	width: 50%;
+}
+
+.zen-resources {
+	background: white;
+	opacity: .65;
+	border-radius: 5px;
+	width: 50%;
+}
 
 /*.sidebar {
 	margin-left: 600px;
